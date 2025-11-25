@@ -124,11 +124,11 @@ export function Header() {
                   <Button
                     onClick={() => {
                       setIsMobileMenuOpen(false);
-                      scrollToSection("cta");
+                      scrollToSection("/contact");
                     }}
-                    className="button-gradient mt-4"
+                    className="button-gradient mt-4 rounded-full"
                   >
-                    Start Trading
+                    Contact Us
                   </Button>
                 </div>
               </SheetContent>

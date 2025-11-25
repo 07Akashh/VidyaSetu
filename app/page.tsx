@@ -7,7 +7,6 @@ import { PricingSection } from "@/components/pricing-section";
 import { TestimonialGridSection } from "@/components/testimonial-grid-section";
 import { FAQSection } from "@/components/faq-section";
 import { CTASection } from "@/components/cta-section";
-import { FooterSection } from "@/components/footer-section";
 import { AnimatedSection } from "@/components/animated-section";
 import FeaturesSection from "@/components/FeaturesSection";
 
@@ -20,16 +19,13 @@ export default function LandingPage() {
             <HeroSection />
           </AnimatedSection>
           {/* Dashboard Preview Wrapper */}
-          <div className="absolute bottom-[-150px] md:bottom-[-400px] left-1/2 transform -translate-x-1/2 z-30">
+          <div className="z-30">
             <AnimatedSection>
               <DashboardPreview />
             </AnimatedSection>
           </div>
         </main>
-        <AnimatedSection
-          className="relative z-10 max-w-[1320px] mx-auto px-6 mt-[411px] md:mt-[400px]"
-          delay={0.1}
-        >
+        <AnimatedSection delay={0.1}>
           <SocialProof />
         </AnimatedSection>
         <AnimatedSection
